@@ -33,7 +33,7 @@ def remove_task(index):
 def user_interface_add_task():
     task = input('Enter task: ')
     add_task(task)
-    print('Task added successfully.')
+    print('Nakapagdagdag nang TASK.')
 
 def user_interface_view_tasks():
     print('Tasks:')
@@ -42,7 +42,7 @@ def user_interface_view_tasks():
 def user_interface_remove_task():
     index = int(input('Enter index of task to remove: '))
     remove_task(index)
-    print('Task removed successfully.')
+    print('Nakapagtanggal ng Task')
 
 def main():
     while True:
