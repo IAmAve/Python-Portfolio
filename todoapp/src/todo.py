@@ -50,7 +50,7 @@ def main():
         print('1. Add Task')
         print('2. View Tasks')
         print('3. Remove Task')
-        print('4. Exit')
+        print('4. Umalis')
         choice = input('Enter your choice: ')
         if choice == '1':
             user_interface_add_task()
